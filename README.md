@@ -1,4 +1,9 @@
-## simple image hosting and sharing site.
+A simple photography oriented file sharing site.
 
-Ideas for the future:
-- Utilize [storj](https://www.storj.io/) as sotrage backend for optimal performace and privacy (data sovereignty)
+`npm run build` - build for production
+
+
+`npm run start` - run for production
+
+
+`npm run dev` - run for dev
