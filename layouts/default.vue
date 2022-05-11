@@ -52,10 +52,6 @@
       </v-btn>
 
       <v-toolbar-title v-text="title" @click="$router.push('/')" style="cursor: pointer;" />
-      <div v-if="$auth.loggedIn">
-        <v-spacer></v-spacer>
-        {{$auth.user.name}}
-      </div>
     </v-app-bar>
     <v-main>
 
