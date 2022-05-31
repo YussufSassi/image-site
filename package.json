@@ -1,6 +1,6 @@
 {
-    "name": "img.cards-frontend",
-    "version": "0.0.1",
+    "name": "img.cards",
+    "version": "0.0.2",
     "private": true,
     "author": "YussufSassi",
     "scripts": {

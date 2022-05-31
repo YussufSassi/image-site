@@ -77,7 +77,7 @@ export default {
   name: 'DefaultLayout',
   data () {
     return {
-      clipped: false,
+      clipped: true,
       drawer: false,
       fixed: false,
       items: [
@@ -85,6 +85,11 @@ export default {
           icon: 'mdi-home',
           title: 'Home',
           to: '/'
+        },
+        {
+          icon: 'mdi-api',
+          title: 'API Docs',
+          to: '/docs'
         },
         {
           icon: 'mdi-email',
