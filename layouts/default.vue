@@ -51,8 +51,10 @@
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
 
-      <v-toolbar-title v-text="title" @click="$router.push('/')" style="cursor: pointer;" />
-    </v-app-bar>
+ <v-toolbar-title @click="$router.push('/')" style="cursor: pointer;">
+      <v-img src="https://api.img.cards/api/v1/image/aACyQax-h/raw" width="13rem" />
+        </v-toolbar-title>
+            </v-app-bar>
     <v-main>
 
       <v-container>
@@ -67,7 +69,7 @@
       inset
 
     >
-      <span>&copy; {{ new Date().getFullYear() }} - version 0.0.1</span>
+      <span>&copy; {{ new Date().getFullYear() }} - version 0.0.3</span>
     </v-footer>
   </v-app>
 </template>

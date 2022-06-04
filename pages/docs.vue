@@ -42,7 +42,22 @@
         <br>
         Note: Experimental endpoint that is not used in the UI yet. It responds with daily upload stats for this site.
         </p>
-        
+        <h4>Download Image</h4>
+       <p>Method: <code>GET</code><br>
+        URL: <code>https://api.img.cards/api/v1/image/:id/download</code>
+        <br>
+        Data: <code>"id": URL param, id of the image</code>
+        <br>
+        Tip: Same data is sent as the endpoint above, however it sends a forced download instead of raw data.
+        </p>
+         <h4>Get Metadata</h4>
+       <p>Method: <code>GET</code><br>
+        URL: <code>https://api.img.cards/api/v1/image/:id/metadata</code>
+        <br>
+         Data: <code>"id": URL param, id of the image</code>
+        <br>
+        Note: Attempts to get EXIF metadata of the image. Returns HTTP 400 if it does not exist.
+        </p>
         </v-card-text>
       </v-card>
     </v-col>
